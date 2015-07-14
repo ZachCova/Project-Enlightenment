@@ -1,0 +1,10 @@
+input[type="radio"]:checked + #life.reveal-if-active, 
+input[type="checkbox"]:checked + #life.reveal-if-active {
+  opacity: 1;
+  max-height: 100px;
+  padding: 10px 20px;
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+  overflow: visible;
+}
